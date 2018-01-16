@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FingerId</string>
+    <string name="fingerprint_description">指纹识别确认</string>
+    <string name="fingerprint_hint">触觉传感器</string>
+    <string name="fingerprint_success">识别成功</string>
+    <string name="fingerprint_not_recognized">无法识别</string>
+
+    <!-- Dialog info -->
+    <string name="no_sensor_dialog_title">没有传感器</string>
+    <string name="no_sensor_dialog_message">您的系统版本过低或不支持指纹登录，请取消</string>
+    <string name="no_fingerprint_enrolled_dialog_title">没有指纹注册</string>
+    <string name="no_fingerprint_enrolled_dialog_message">没有指纹注册，请
+        <font fgcolor="green">Setting->Security->Nexus Imprint\n</font>
+       登记</string>
+    <!-- auth result error amd help code warning -->
+    <string name="AcquiredGood_warning">图像获得很好</string>
+    <string name="AcquiredImageDirty_warning">指纹图像太少，疑似或检测到传感器上的灰尘。</string>
+    <string name="AcquiredInsufficient_warning">指纹图像太少，疑似或检测到传感器上的灰尘。</string>
+    <string name="AcquiredPartial_warning">只有部分指纹图像检测。长按传感器</string>
+    <string name="AcquiredTooFast_warning">指纹图像不完整。长按传感器</string>
+    <string name="AcquiredToSlow_warning">指纹图像读取未完成。</string>
+    <string name="ErrorCanceled_warning">
+     操作被取消了,因为指纹传感器不可用。</string>
+    <string name="ErrorHwUnavailable_warning">硬件不可用。稍后再试。</string>
+    <string name="ErrorLockout_warning">指纹已禁用，请您稍后再试</string>
+    <string name="ErrorNoSpace_warning">返回错误状态登记等操作,操作无法完成,因为没有足够剩余存储来完成操作。</string>
+    <string name="ErrorTimeout_warning">错误状态时返回当前请求已经运行的时间太长。这是为了防止计划无限期等待指纹传感器。
+        超时是平台和传感器——特定的,但通常是大约30秒。
+   </string>
+    <string name="ErrorUnableToProcess_warning">返回错误状态传感器时无法处理当前的图像。</string>
+    <string name="cancel_btn_dialog">取消</string>
+
+</resources>
